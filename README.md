@@ -1,2 +1,2 @@
-# opencv-tot
-OpenCV TOT Course for Trainers.
+# OpenCV ToT
+OpenCV TOT Course for Trainers at high school level.
