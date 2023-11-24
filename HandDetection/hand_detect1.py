@@ -1,3 +1,15 @@
+""" 
+IMPORTANT NOTE:
+Before using this code, make sure to install the dependencies:
+
+> pip install opencv-python
+> pip install mediapipe
+
+And finally; Detectors World
+
+> pip install detectors_world
+
+"""
 from detectors_world import DetectorCreator
 import cv2 as cv
 
