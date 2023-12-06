@@ -15,13 +15,11 @@ def check_index_finger(landmarks):
     if len(landmarks) != 0:
         print(lms[4])
         if landmarks[8][2] < 150:
-            keyboard.release(Key.down)
             print("UP")
             keyboard.press(Key.up)
             sleep(0.1)
             keyboard.release(Key.up)
         elif landmarks[8][2] > 350:
-            keyboard.release(Key.up)
             print("DOWN")
             keyboard.press(Key.down)
             sleep(0.1)
